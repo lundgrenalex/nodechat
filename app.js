@@ -33,10 +33,7 @@ server.on('connection', function (socket) {
     'use strict';
         
     // Add connection to connections array
-    connections.push({
-        socket: socket, 
-        name: ''
-    }); 
+    connections.push({socket: socket, name: ''}); 
     
     // Display count of connections
     socket.write(connections.length + ' people in chat! \n');
