@@ -54,7 +54,7 @@ server.on('connection', function (socket) {
         // Trim \n in new messages 
         data = String(data).trim();
         
-        // Display our message to peolpe or define nickname of in not exist
+        // Display our message to peolpe or define nickname of it not exist
         connections.forEach(function (connection) {  
         
             if (connection.name === '') {
