@@ -1,4 +1,4 @@
-var chat = require('net'),
+var net = require('net'),
     connections;
 
 server = net.createServer(function (socket) {
