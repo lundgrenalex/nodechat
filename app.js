@@ -1,5 +1,5 @@
 var net = require('net'),
-    connections;
+    connections = [];
 
 server = net.createServer(function (socket) {
         socket.setEncoding('utf8');
