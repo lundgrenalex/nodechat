@@ -35,7 +35,6 @@ server.on('connection', function (socket) {
     // Add connection to connections array
     connections.push({
         socket: socket, 
-        address: socket.address().address, 
         name: ''
     }); 
     
