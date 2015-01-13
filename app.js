@@ -14,7 +14,7 @@ server = net.createServer(function (socket) {
         });
 });
 
-chat.on('connection', function (socket) {
+server.on('connection', function (socket) {
     
     'use strict';
     
